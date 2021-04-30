@@ -1,0 +1,12 @@
+== What I Found ==
+- in the pokemon lesson there is an id for every pokemon and that is what pulls up the pokemon 
+------------------------------------------------
+*in the catsAPI the id number is inside the categories array*
+- i tried to pull the id out by using 
+    - an if statement
+[java]
+if(cats != 1 || 'Hats') {
+    document.querySelector("img.categoryCatImage").src = cat[0].categories[0].url;
+}
+[end]
+    - what I thought would happen is if the value of the search bar equals one of those it would pull the cat category
